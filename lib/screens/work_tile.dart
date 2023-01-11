@@ -37,7 +37,7 @@ class _WorkTileState extends State<WorkTile> {
             mainAxisAlignment: MainAxisAlignment.end,
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(widget.works.price.toString() + ' PLN'),
+              Text(widget.works.price.toString() + ' USD'),
             ],
           ));
     } else if (widget.mode == 1) {
@@ -50,7 +50,7 @@ class _WorkTileState extends State<WorkTile> {
             mainAxisAlignment: MainAxisAlignment.end,
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(widget.works.price.toString() + ' PLN'),
+              Text(widget.works.price.toString() + ' USD'),
               Checkbox(
                   value: isCheck,
                   onChanged: (bool? state) async {
@@ -82,7 +82,7 @@ class _WorkTileState extends State<WorkTile> {
             mainAxisAlignment: MainAxisAlignment.end,
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(widget.works.price.toString() + ' PLN'),
+              Text(widget.works.price.toString() + ' USD'),
               IconButton(
                   onPressed: () {
                     Dialogues.editWorkDialog(context, widget.works);

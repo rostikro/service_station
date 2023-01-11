@@ -56,7 +56,7 @@ class ResultForm extends StatelessWidget {
                   Text('TOTAL',
                       style: TextStyle(fontSize: 20.0, color: Colors.grey)),
                   Spacer(),
-                  Text(works[0] + ' PLN', style: TextStyle(fontSize: 20.0))
+                  Text(works[0] + ' USD', style: TextStyle(fontSize: 20.0))
                 ],
               ),
               SizedBox(height: 20),
@@ -64,7 +64,7 @@ class ResultForm extends StatelessWidget {
                 children: [
                   Text('Details price'),
                   Spacer(),
-                  Text(works[1] + ' PLN', style: TextStyle(color: Colors.grey))
+                  Text(works[1] + ' USD', style: TextStyle(color: Colors.grey))
                 ],
               ),
               SizedBox(height: 5),
