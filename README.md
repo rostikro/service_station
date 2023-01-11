@@ -1,16 +1,13 @@
-# service_station
+# Service Station
 
-A new Flutter project.
+Service Station is a simple application built with Flutter. With its help, you can easily organize the calculation of the cost of services for a company. In this example, the company is a service station. You can use this app for any other purpose.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Once you have cloned, you need to run `pub get` to install the required plugins specified in the `pubspec.yaml` file.
 
-A few resources to get you started if this is your first Flutter project:
+### Firebase configuration
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+First, you need to create a Firebase database. Next, configure `Firestore Database` and `Storage`. In `Storage` create a folder `images`. In this folder, upload a picture with the name `default_image.jpg`. This image will be displayed by default in the work tiles, if the user does not want to change it to his own.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Next, configure the `google-services.json` file. Move your downloaded `google-services.json` file into your module (app-level) root directory. For more detailed instructions, you can read the official documentation: [Firebase docs](https://firebase.google.com/docs/android/setup?authuser=0&hl=en#add-config-file)
