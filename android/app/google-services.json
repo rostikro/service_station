@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871571813142",
+    "project_id": "service-station-b2847",
+    "storage_bucket": "service-station-b2847.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871571813142:android:0a08e6216f36c9c1c8d637",
+        "android_client_info": {
+          "package_name": "com.ironstudio.service_station"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871571813142-fj88g0mkpfm6j5ot4lbu9fd7fm1flnnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWUS2mxwx0csUtAsS2faTsfVx83Dcb-ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871571813142-fj88g0mkpfm6j5ot4lbu9fd7fm1flnnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
